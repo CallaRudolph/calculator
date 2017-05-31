@@ -59,7 +59,7 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
-  $(".image").click(function() {
+  $(".clickable").click(function() {
     $("img").show();
   });
 });
