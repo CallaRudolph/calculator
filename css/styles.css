@@ -1,0 +1,9 @@
+.well {
+  padding: 10px;
+  background-color: cyan;
+}
+
+#output {
+  color: purple;
+  font-weight: bolder;
+}
