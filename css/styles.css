@@ -10,3 +10,10 @@
   color: purple;
   font-weight: bolder;
 }
+
+img {
+  width: 200px;
+  display: none;
+  margin-left: auto;
+  margin-right: auto
+}

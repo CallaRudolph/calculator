@@ -57,3 +57,9 @@ $(document).ready(function() {
     $("#output").text(result);
   });
 });
+
+$(document).ready(function() {
+  $(".image").click(function() {
+    $("img").show();
+  });
+});
