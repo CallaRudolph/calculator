@@ -1,6 +1,9 @@
 .well {
   padding: 10px;
   background-color: cyan;
+  text-align: center;
+  margin-right: 300px;
+  margin-left: 300px;
 }
 
 #output {
