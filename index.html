@@ -9,64 +9,42 @@
   </head>
   <body>
     <div class="container">
-      <h1>Calculator</h1>
-      <div class="row">
-        <div class="col-md-6">
-          <form id="add">
-            <div class="form-group">
-              <label for="add1">1st number:</label>
-              <input id="add1" class="form-control" type="text">
-            </div>
-            <div class="form-group">
-              <label for="add2">2nd number:</label>
-              <input id="add2" class="form-control" type="text">
-            </div>
-            <button type="submit" class="btn btn-success">Add!</button>
-          </form>
-        </div>
-        <div class="col-md-6">
-          <form id="subtract">
-            <div class="form-group">
-              <label for="subtract1">1st number:</label>
-              <input id="subtract1" class="form-control" type="text">
-            </div>
-            <div class="form-group">
-              <label for="subtract2">2nd number:</label>
-              <input id="subtract2" class="form-control" type="text">
-            </div>
-            <button type="submit" class="btn btn-danger">Subtract!</button>
-          </form>
-        </div>
-      </div>
-      <br>
-      <div class="row">
-        <div class="col-md-6">
-          <form id="multiply">
-            <div class="form-group">
-              <label for="multiply1">1st number:</label>
-              <input id="multiply1" class="form-control" type="text">
-            </div>
-            <div class="form-group">
-              <label for="multiply2">2nd number:</label>
-              <input id="multiply2" class="form-control" type="text">
-            </div>
-            <button type="submit" class="btn-info">Multiply!</button>
-          </form>
-        </div>
-        <div class="col-md-6">
-          <form id="divide">
-            <div class="form-group">
-              <label for="divide1">1st number:</label>
-              <input id="divide1" class="form-control" type="text">
-            </div>
-            <div class="form-group">
-              <label for="divide2">2nd number:</label>
-              <input id="divide2" class="form-control" type="text">
-            </div>
-            <button type="submit" class="btn btn-warning">Divide!</button>
-          </form>
-        </div>
-      </div>
+     <h1>Calculator</h1>
+     <form id="calculator">
+       <div class="form-group">
+         <label for="input1">1st number:</label>
+         <input id="input1" class="form-control" type="text">
+       </div>
+       <div class="form-group">
+         <label for="input2">2nd number:</label>
+         <input id="input2" class="form-control" type="text">
+       </div>
+       <div class="radio">
+         <label>
+           <input type="radio" name="operator" value="add" checked>
+           add
+         </label>
+       </div>
+       <div class="radio">
+         <label>
+           <input type="radio" name="operator" value="subtract">
+           subtract
+         </label>
+       </div>
+       <div class="radio">
+         <label>
+           <input type="radio" name="operator" value="multiply">
+           multiply
+         </label>
+       </div>
+       <div class="radio">
+         <label>
+           <input type="radio" name="operator" value="divide">
+           divide
+         </label>
+       </div>
+       <button type="submit" class="btn">Go!</button>
+     </form>              
       <br>
       <div class="well">
         <label for="answer">Here's your answer! <span class="clickable">Click here</span> to see your gift.</label>
