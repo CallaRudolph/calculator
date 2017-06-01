@@ -60,6 +60,6 @@ $(document).ready(function() {
 
 $(document).ready(function() {
   $(".clickable").click(function() {
-    $("img").show();
+    $(".pics").toggle();
   });
 });
